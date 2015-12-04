@@ -19,8 +19,15 @@ class CallLogs implements Serializable {
     private int duration;
     private int totalCalls;
     private String providerName;
+    private int smsCount;
 
+    public int getSmsCount() {
+        return smsCount;
+    }
 
+    public void setSmsCount(int smsCount) {
+        this.smsCount = smsCount;
+    }
 
     CallLogs(){}
 

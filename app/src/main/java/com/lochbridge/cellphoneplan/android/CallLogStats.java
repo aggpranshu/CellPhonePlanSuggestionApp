@@ -148,6 +148,7 @@ public class CallLogStats extends Activity {
                             providerName);
                     object.setDuration(Integer.valueOf(duration), callDate);
                     callLogsDataMap.put(truncatedNumber, object);
+                    object.setSmsCount(smsCount);
                 }
             }
         }

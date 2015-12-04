@@ -14,6 +14,12 @@ public class AggregatedLogStats implements Serializable{
 
     private int totalCalls;
 
+    private int smsCount;
+
+    public int getSmsCount() {
+        return smsCount;
+    }
+
     public int getTotalCalls() {
         return totalCalls;
     }
